@@ -26,6 +26,7 @@ sudo apt-get install -y \
     libgtk2.0-dev \
     pkg-config
 
+cd $OPENCV_SOURCE_DIR
 echo "Cloning OpenCV repo..."
 git clone https://github.com/opencv/opencv.git
 cd opencv
